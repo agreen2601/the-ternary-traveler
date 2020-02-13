@@ -1,0 +1,26 @@
+.deleteButton, .editButton, #reviewButton {
+    float: right;
+}
+
+.deleteButton, #reviewButton {
+    margin-left: 10px;
+}
+
+#reviewInput {
+    width: 60%;
+}
+
+.flag {
+    float: right;
+    height: 70px;
+    margin-top: -8px;
+    margin-right: 5px;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+#nameInput, #descriptionInput, #reviewInput {
+    width: 80%;
+}
