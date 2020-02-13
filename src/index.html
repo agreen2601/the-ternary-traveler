@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Plans</title>
+</head>
+<body>
+    <h1 id="heading">Mira's World</h1>
+
+    <form>
+        <input type="hidden" id="entryId" value="">
+
+        <fieldset id="nameBox">
+            <label class="label">Point of interest:</label>
+            <input id="nameInput" type="text">
+        </fieldset>
+
+        <fieldset id="descriptionBox">
+            <label class="label">Description:</label>
+            <textarea id="descriptionInput"></textarea>
+        </fieldset>
+
+        <fieldset id="costBox">
+            <label class="label">Cost:</label>
+            <input id="costInput" type="number" step="0.01">
+        </fieldset>
+
+        <fieldset id="reviewBox">
+            <label class="label">Review:</label>
+            <textarea id="reviewInput"></textarea>
+        </fieldset>
+
+        <fieldset id="countryBox">
+            <label class="country">Country:</label>
+            <select id="countryInput">
+                <option value="1">Italy</option>
+                <option value="2">Switzerland</option>
+                <option value="3">France</option>
+            </select>
+        </fieldset>
+    </form>
+
+    <button id="update">Update travel agenda</button>
+
+    <h2 class="travelAgenda">Travel Agenda</h2>
+
+    <section id="container"></section>
+
+    <script type="module" src="scripts/main.js"></script>
+</body>
+</html>
