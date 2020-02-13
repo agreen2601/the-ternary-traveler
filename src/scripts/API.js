@@ -18,6 +18,7 @@ const API = {
     const nameInput = document.querySelector("#nameInput");
     const descriptionInput = document.querySelector("#descriptionInput");
     const costInput = document.querySelector("#costInput");
+    const countryInput = document.querySelector("#countryInput");
     const reviewInput = document.querySelector("#reviewInput");
     fetch(`http://localhost:3000/interests/${entryId}`)
       .then(resp => resp.json())
@@ -26,6 +27,7 @@ const API = {
         nameInput.value = entry.name;
         descriptionInput.value = entry.description;
         costInput.value = entry.cost;
+        countryInput.value = entry.placeId;
         reviewInput.value = entry.review;
       });
   },
@@ -42,7 +44,7 @@ const API = {
     return fetch(`http://localhost:3000/interests/${entryId}`, {
       method: "DELETE"
     }).then(response => response.json());
-  }
+  },
 };
 
 export default API;

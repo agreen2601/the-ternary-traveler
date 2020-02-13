@@ -18,28 +18,36 @@
   ],
   "interests": [
     {
-      "id": 1,
       "placeId": 1,
       "name": "Local Market",
       "description": "Local market where you can purchase local products and try the local food",
-      "cost": 0,
-      "review": ""
+      "cost": "0",
+      "review": "",
+      "id": 1
+    },
+    {
+      "placeId": 1,
+      "name": "An even better place",
+      "description": "Even cooler stuff to see",
+      "cost": "15",
+      "review": "Red wine and nice cars",
+      "id": 3
     },
     {
       "placeId": 2,
-      "name": "Some Place",
-      "description": "Tons of cool stuff to see",
-      "cost": "30",
-      "review": "",
-      "id": 2
+      "name": "Best of the best",
+      "description": "The ultimate cream of the crop travel experience",
+      "cost": "4000",
+      "review": "Fancy watches and secure banks",
+      "id": 4
     },
     {
       "placeId": 3,
-      "name": "An even better place",
-      "description": "Even cooler stuff to see",
-      "cost": "40",
+      "name": "Le things",
+      "description": "Le beautiful things wewe",
+      "cost": "12.48",
       "review": "",
-      "id": 3
+      "id": 5
     }
   ]
 }
